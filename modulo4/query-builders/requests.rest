@@ -1,0 +1,14 @@
+### Ping
+GET http://localhost:3003/ping
+
+### Create perfume
+POST http://localhost:3003/perfumes
+Content-Type: application/json
+
+{
+    "name": "Egeo",
+    "brand": "Boticario",
+    "price": 80,
+    "ml": 200
+}
+
